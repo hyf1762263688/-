@@ -1,9 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T08:40:16.943Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.2" etag="aCf4XN4ZP9e0MAOgSECm" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T08:54:29.714Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="SclUUt-NNYT6egwOxBpK" version="21.3.2" type="github">
   <diagram name="第 1 页" id="cqG2GHLHIReDGlcsqIr-">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="idRSTRk5p8x3pTHrCApB-1" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="85" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-2" value="服务器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-3" value="数据库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="550" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="190" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="305" y="170" width="185" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-6" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="525" y="170" width="170" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-7" value="收集到的bssid和rssi数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-8" value="训练好的定位模型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-10" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="215" y="215" width="115" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-11" value="RSSI信息上传" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="225" y="185" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-12" value="定位结果显示" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="290" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;fontStyle=1" edge="1" parent="1" source="idRSTRk5p8x3pTHrCApB-8" target="idRSTRk5p8x3pTHrCApB-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="500" as="sourcePoint" />
+            <mxPoint x="440" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="395" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-14" value="回传定位结果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="275" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-15" value="查询店铺" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-17" value="API接口调用" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="330" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-18" value="数据库查询" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-19" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="215" y="390" width="115" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-20" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="450" y="390" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-21" value="店铺关键词" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="225" y="360" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-22" value="SQL语句" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="465" y="370" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-23" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="450" y="420" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-24" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="210" y="420" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-25" value="查询结果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="440" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="idRSTRk5p8x3pTHrCApB-26" value="数据库查询结果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="457.5" y="440" width="95" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
